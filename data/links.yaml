@@ -1,0 +1,128 @@
+# VibeNav 数据源 —— 每行格式: "名称 | 网址 | 悬停提示"
+site: VibeNav
+tagline: Vibe Coding 工具导航 · 为独立开发者精选
+repo: https://github.com/usoldfish/vibenav
+freefordev: https://usoldfish.github.io/freefordev/
+categories:
+  - name: 🖥️ AI 编程 IDE
+    links:
+      - "Cursor | https://cursor.com | AI 代码编辑器霸主,深度理解代码库,复杂项目首选"
+      - "Windsurf | https://windsurf.com | 已并入 Cognition 改名 Devin Desktop,agentic IDE 体验流畅"
+      - "Zed | https://zed.dev | Rust 写的极速编辑器,内置 AI 协作"
+      - "GitHub Copilot | https://github.com/features/copilot | 老牌 AI 结对编程,VS Code 原生集成,有免费层"
+      - "Antigravity | https://antigravity.google | Google 的 agentic 开发平台,Gemini 驱动"
+      - "Kiro | https://kiro.dev | AWS 出品,规格驱动(spec-driven)开发流"
+      - "Trae | https://www.trae.cn | 字节跳动 AI IDE,国内版免费,SOLO 模式自主完成任务"
+      - "Qoder | https://qoder.com | 阿里 AI IDE,Qwen-Coder 驱动,Repo Wiki 理解大仓库"
+      - "CodeBuddy | https://codebuddy.ai | 腾讯 AI IDE,微信小程序开发集成最好"
+      - "通义灵码 | https://lingma.aliyun.com | 阿里的 Copilot 插件,国内直连免费"
+      - "JetBrains AI | https://www.jetbrains.com/ai/ | IDEA/PyCharm 全家桶的 AI 助手与 Junie agent"
+  - name: ⌨️ 命令行 Coding Agent
+    links:
+      - "Claude Code | https://claude.com/claude-code | Anthropic 终端 agent,正确性与工程能力最强"
+      - "Codex CLI | https://github.com/openai/codex | OpenAI 的开源终端编程 agent"
+      - "Gemini CLI | https://github.com/google-gemini/gemini-cli | Google 开源终端 agent,免费额度大方"
+      - "Aider | https://aider.chat | 开源老牌 CLI 结对编程,git 集成好,任意模型可接"
+      - "OpenCode | https://opencode.ai | 开源终端 agent,模型自由切换"
+      - "Qwen Code | https://github.com/QwenLM/qwen-code | 通义千问的开源 CLI agent,国内生态友好"
+  - name: 🌐 Prompt→App 生成器
+    links:
+      - "v0 | https://v0.app | Vercel 出品,对话生成 React/Next.js 界面,前端质量最高"
+      - "Bolt.new | https://bolt.new | 浏览器里全栈生成+运行+部署一条龙"
+      - "Lovable | https://lovable.dev | 非技术人群最友好,产出最像成品"
+      - "Replit | https://replit.com | 云端 IDE+Agent,移动端也能写应用"
+      - "Firebase Studio | https://firebase.studio | Google 的云端 AI 应用工作台,免费用"
+      - "Manus | https://manus.im | 通用 AI agent,能独立完成建站等复杂任务"
+      - "扣子 Coze | https://www.coze.cn | 字节的 AI Bot/应用搭建平台,微信生态分发方便"
+      - "YouWare | https://www.youware.com | AI 编程创作者社区,作品即部署"
+  - name: 📱 移动 App / 小程序
+    links:
+      - "FlutterFlow | https://flutterflow.io | 可视化+AI 生成 Flutter 应用,可导出代码"
+      - "a0.dev | https://a0.dev | 对话生成 React Native iOS 应用"
+      - "Rork | https://rork.com | AI 生成跨平台移动 App,直出 App Store 可用项目"
+      - "Expo | https://expo.dev | React Native 标准工具链,配 AI IDE 是移动端最佳拍档"
+  - name: 🎨 设计转代码 / UI 组件
+    links:
+      - "Figma Make | https://www.figma.com/make/ | Figma 官方设计稿转应用"
+      - "screenshot-to-code | https://github.com/abi/screenshot-to-code | 开源:截图直接转前端代码"
+      - "shadcn/ui | https://ui.shadcn.com | 复制粘贴式 React 组件库,vibe coding 事实标准"
+      - "21st.dev | https://21st.dev | 社区版 shadcn 组件市场,给 AI 用的组件提示词"
+      - "Aceternity UI | https://ui.aceternity.com | 炫酷动效 React 组件,落地页神器"
+      - "Magic Patterns | https://www.magicpatterns.com | AI 生成 UI 原型,产品设计迭代快"
+      - "tweakcn | https://tweakcn.com | 可视化调 shadcn/ui 主题,一键导出"
+      - "Mobbin | https://mobbin.com | 十万+真实 App 设计截图参考库"
+      - "Landingfolio | https://www.landingfolio.com | 落地页设计灵感合集"
+  - name: 🧠 大模型对话 & API
+    links:
+      - "Claude | https://claude.ai | Anthropic 旗舰,写代码与长文最强"
+      - "ChatGPT | https://chatgpt.com | OpenAI 全能选手,生态最大"
+      - "Gemini | https://gemini.google.com | Google 多模态旗舰,免费额度大"
+      - "Kimi | https://www.kimi.com | 月之暗面,长上下文,国内直连"
+      - "Qwen Chat | https://chat.qwen.ai | 通义千问,开源模型之王,国内直连"
+      - "Perplexity | https://www.perplexity.ai | AI 搜索引擎,调研查资料利器"
+  - name: 📚 提示词 & 规则库
+    links:
+      - "cursor.directory | https://cursor.directory | Cursor 规则与 MCP 大全,按框架分类"
+      - "awesome-cursorrules | https://github.com/PatrickJS/awesome-cursorrules | GitHub 高星 .cursorrules 合集"
+      - "Anthropic 提示词库 | https://docs.claude.com/en/resources/prompt-library | 官方精选提示词模板"
+      - "Prompting Guide | https://www.promptingguide.ai | 系统的提示工程教程,有中文版"
+      - "Learn Prompting | https://learnprompting.org | 免费提示工程课程"
+      - "Context7 | https://context7.com | 给 AI 喂最新框架文档的 MCP,治幻觉"
+  - name: 🔌 MCP 生态
+    links:
+      - "mcp.so | https://mcp.so | 最大的 MCP Server 导航站"
+      - "Smithery | https://smithery.ai | MCP 注册表+一键安装"
+      - "PulseMCP | https://www.pulsemcp.com | MCP 目录与周报"
+      - "Awesome MCP Servers | https://github.com/punkpeye/awesome-mcp-servers | GitHub 高星 MCP 合集"
+      - "Composio | https://composio.dev | 给 agent 接几百个应用的工具层"
+  - name: 🧰 开发小工具
+    links:
+      - "regex101 | https://regex101.com | 正则表达式在线调试"
+      - "transform.tools | https://transform.tools | JSON/TS/CSS 等格式互转"
+      - "CodePen | https://codepen.io | 前端代码片段分享与演示"
+      - "StackBlitz | https://stackblitz.com | 浏览器里跑完整 Node 项目"
+      - "CodeSandbox | https://codesandbox.io | 云端沙盒,分享可运行 demo"
+      - "DevDocs | https://devdocs.io | 全部 API 文档聚合,支持离线"
+      - "Can I use | https://caniuse.com | 浏览器兼容性查询"
+      - "crontab.guru | https://crontab.guru | Cron 表达式翻译器"
+      - "readme.so | https://readme.so | 拖拽生成 README"
+      - "ray.so | https://ray.so | 生成漂亮的代码截图"
+      - "RealFaviconGenerator | https://realfavicongenerator.net | 一张图生成全套 favicon"
+      - "QuickRef | https://quickref.me | 各语言速查表大全"
+  - name: 🚀 发布 & 增长
+    links:
+      - "Product Hunt | https://www.producthunt.com | 新产品发布第一站"
+      - "Hacker News | https://news.ycombinator.com | Show HN 发布,技术产品高质量流量"
+      - "Uneed | https://www.uneed.best | 独立产品发布目录,每天限量上新"
+      - "Peerlist | https://peerlist.io | 开发者作品集社区+项目发布"
+      - "BetaList | https://betalist.com | 早期产品曝光"
+      - "Toolify | https://www.toolify.ai | AI 工具导航站,提交收录拿流量"
+      - "There's An AI For That | https://theresanaiforthat.com | 最大 AI 工具目录,值得提交"
+      - "Indie Hackers | https://www.indiehackers.com | 独立开发者社区,分享收入故事"
+      - "r/SideProject | https://www.reddit.com/r/SideProject/ | Reddit 副业项目版,发布友好"
+      - "即刻 | https://web.okjike.com | 国内独立开发者聚集地(一起做副业等圈子)"
+  - name: 🔍 选品 & 调研
+    links:
+      - "Google Trends | https://trends.google.com | 搜索趋势验证需求"
+      - "Exploding Topics | https://explodingtopics.com | 发现正在爆发的话题与品类"
+      - "SimilarWeb | https://www.similarweb.com | 查竞品流量与来源"
+      - "Ahrefs 免费工具 | https://ahrefs.com/free-seo-tools | 免费关键词/外链/排名小工具合集"
+      - "AnswerThePublic | https://answerthepublic.com | 关键词背后的真实提问"
+      - "百度指数 | https://index.baidu.com | 国内搜索趋势"
+      - "5118 | https://www.5118.com | 中文 SEO/关键词挖掘"
+  - name: 🏷️ 域名 & 起名
+    links:
+      - "Namelix | https://namelix.com | AI 生成品牌名+logo"
+      - "Instant Domain Search | https://instantdomainsearch.com | 边打字边查域名可用性"
+      - "Lean Domain Search | https://leandomainsearch.com | 关键词组合批量找可注册域名"
+      - "TLD-List | https://tld-list.com | 全后缀域名价格比价"
+      - "Porkbun | https://porkbun.com | 便宜靠谱的域名注册商"
+  - name: 🎓 学习 & 资讯
+    links:
+      - "Claude 文档 | https://docs.claude.com | Claude Code/API 官方文档与最佳实践"
+      - "OpenAI Cookbook | https://cookbook.openai.com | OpenAI 官方实战代码集"
+      - "roadmap.sh | https://roadmap.sh | 开发者学习路线图"
+      - "freeCodeCamp | https://www.freecodecamp.org | 免费编程课程,有中文社区"
+      - "阮一峰周刊 | https://www.ruanyifeng.com/blog/ | 科技爱好者周刊,中文开发者必读"
+      - "Ben's Bites | https://www.bensbites.com | AI 圈每日资讯 Newsletter"
+      - "Starter Story | https://www.starterstory.com | 独立创业者案例库"
