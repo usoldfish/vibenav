@@ -69,6 +69,7 @@ tags:
   free: "免费 | Free | 無料"
   opensource: "开源 | Open source | OSS"
   china: "国产 | China-made | 中国製"
+  benchmark: "测评 | Benchmark | ベンチマーク"
 categories:
   - name: "🖥️ AI 编程 IDE | AI Coding IDEs | AIコーディングIDE"
     links:
@@ -126,6 +127,16 @@ categories:
       - "Kimi | https://www.kimi.com | llm,china,free | 月之暗面,长上下文,国内直连 | Moonshot AI, long context, direct access in China | Moonshot AI製、長文コンテキスト"
       - "Qwen Chat | https://chat.qwen.ai | llm,china,free,opensource | 通义千问,开源模型之王,国内直连 | Qwen, king of open-source models | Qwen、OSSモデルの王者"
       - "Perplexity | https://www.perplexity.ai | llm,research | AI 搜索引擎,调研查资料利器 | AI search engine, great for research | AI検索エンジン、リサーチに最適"
+  - name: "🏆 模型测评 & 排行榜 | LLM Leaderboards | LLMリーダーボード"
+    links:
+      - "LMArena | https://arena.ai | benchmark,community,free | 众包盲测投票的 Elo 排行榜,真人偏好最权威榜单 | Crowdsourced Elo leaderboard from blind A/B votes | ブラインド投票によるEloランキングの定番"
+      - "Artificial Analysis | https://artificialanalysis.ai | benchmark,research,free | 智能/速度/价格三维横评,选 API 模型必看 | Compare models by intelligence, speed and price | 知能・速度・価格でモデル横断比較"
+      - "LiveBench | https://livebench.ai | benchmark,opensource,free | 每月换题防数据污染的硬核基准 | Contamination-free benchmark with monthly fresh questions | 毎月新問題でデータ汚染を防ぐベンチマーク"
+      - "SWE-bench | https://www.swebench.com | benchmark,opensource,free | 真实 GitHub issue 修复测试,编程 agent 金标准 | Real GitHub issue fixing, the coding agent gold standard | 実GitHub issue修復テスト、エージェントの金字塔"
+      - "Aider Leaderboards | https://aider.chat/docs/leaderboards/ | benchmark,opensource,free | Polyglot 多语言编程实测排行,选写码模型参考 | Polyglot coding benchmark rankings | 多言語コーディング実測ランキング"
+      - "OpenRouter Rankings | https://openrouter.ai/rankings | benchmark,free | 按真实 token 用量排名,反映市场真实选择 | Rankings by real token usage, the market's actual choice | 実際のトークン使用量による市場ランキング"
+      - "OpenCompass 司南 | https://opencompass.org.cn | benchmark,china,opensource,free | 上海 AI 实验室的权威测评体系,中文能力榜单全 | Authoritative eval suite by Shanghai AI Lab | 上海AI Labの評価体系、中国語能力に強い"
+      - "SuperCLUE | https://www.superclueai.com | benchmark,china,free | 老牌中文大模型测评基准,按场景细分 | Veteran Chinese LLM benchmark by scenario | 中国語LLMベンチマークの老舗"
   - name: "📚 提示词 & 规则库 | Prompts & Rules | プロンプト & ルール"
     links:
       - "cursor.directory | https://cursor.directory | prompt,community,free | Cursor 规则与 MCP 大全,按框架分类 | Cursor rules and MCP directory by framework | Cursorルール&MCP大全、フレームワーク別"
